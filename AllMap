@@ -1,5 +1,7 @@
 local gamelist = {
     [994732206]  = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubBF",
+    [1119466531] = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubLfP",
+    [1335695570] = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubNJR",
 
 }
 local checkgame = gamelist[game.gameId]
@@ -7,5 +9,5 @@ if gamelist[game.gameId] then
 print (checkgame)
     loadstring(game:HttpGet(checkgame))()
 else 
-game.Players.LocalPlayer:Kick("Not Game Support")
+game.Players.LocalPlayer:Kick("ไม่ได้ทํา ก็อย่ารันนะครับ เพราะมันไม่ได้อยู่แล้ว")
 end
