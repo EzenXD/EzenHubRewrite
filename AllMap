@@ -1,5 +1,5 @@
 local gamelist = {
-    [994732206]  = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubBF",
+    [994732206]  = "https://github.com/EzenXD/EzenHubRewrite/blob/main/EzenHubBFPC",
     [1119466531] = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubLfP",
     [1335695570] = "https://raw.githubusercontent.com/EzenXD/EzenHubRewrite/main/EzenHubNJR",
 
